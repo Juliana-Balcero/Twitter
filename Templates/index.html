@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+  <div class="container">
+
+        <form action="/welcome" method="GET">
+
+            <div class="col-md-8 col-md-offset-2">
+
+                <div >
+
+                    <h1><p class="text-primary">Api Twitter: Analisis de datos de usuarios</p></h1>
+
+                </div>
+
+                <div class="form-group">
+
+                <label for="username">Username: </label>
+
+                    <input class="form-control" type="text" id="username" name="usuario" placeholder="@NombreDeUsuario" required/><br>
+
+                </div>
+
+                <div class="spinner-border text-primary" role="status">
+
+                    <input class="btn btn-primary" type="submit" id="send-signup" name="signup" value="Generar Datos" />
+
+                    {% if m == 'GET' %}
+
+                    <h1 id="he"> Usuario: {{r}}</h1>
+
+                    <h2> N° de Seguidores: {{f}}</h1>
+                    
+                    {% endif %}
+                    <span class="sr-only">Loading...</span>
+
+                </div>
+
+            </div>
+
+        </form>
+
+    </div>
+
+
+
+     
+
+
+
+
+
+
+</body>
+
+</html>
