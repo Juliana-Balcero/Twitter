@@ -13,8 +13,8 @@ Para extraer datos de usuarios de la red social Twitter se requiere :
     Autenticación: 
      --- credenciales 
     
-    api = tweepy.API (auth) se llama al metodo pasandole como parametro la autenticación previa realizada, para asi empezar a 
-                            obtener la informacion de los usurios.     
+    api = tweepy.API (auth) se llama al metodo pasandole como parametro la autenticación previa realizada, 
+    para asi empezar a obtener la informacion de los usurios.     
 # Pasos: 
 
  1. Autenticación: Twitter utiliza el protocolo Oauth 2.0 por motivos de seguridad , por tanto  para obtener la autenticación es 
